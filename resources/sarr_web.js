@@ -428,9 +428,9 @@ map.on("rendercomplete", function(evt) {
         var qgis2webAttribution = document.createElement('li');
         qgis2webAttribution.innerHTML = '<a href="https://sarr-diouf-projetsabadola.netlify.app/">SARR</a> &middot; ';
         var olAttribution = document.createElement('li');
-        olAttribution.innerHTML = '<a href="https://openlayers.org/">ABLAYE</a> &middot; ';
+        olAttribution.innerHTML = '<a href="https://sarr-diouf-projetsabadola.netlify.app/">ABLAYE</a> &middot; ';
         var qgisAttribution = document.createElement('li');
-        qgisAttribution.innerHTML = '<a href="https://qgis.org/">Contributor</a>';
+        qgisAttribution.innerHTML = '<a href="https://sarr-diouf-projetsabadola.netlify.app/">Contributor</a>';
         attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);
         attributionList.insertBefore(olAttribution, firstLayerAttribution);
         attributionList.insertBefore(qgisAttribution, firstLayerAttribution);
